@@ -1,0 +1,2 @@
+-> Have to run this script forever using supervisord
+-> Include error handling
