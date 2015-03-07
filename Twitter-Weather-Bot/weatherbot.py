@@ -5,7 +5,7 @@ import tweepy
 import pywapi
 import time
 from time import strftime
-
+#Add your Auth keys from apps.twitter.com
 auth = tweepy.OAuthHandler('', '')
 auth.set_access_token('', '')
 
