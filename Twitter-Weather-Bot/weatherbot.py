@@ -11,8 +11,7 @@ auth.set_access_token('', '')
 
 api = tweepy.API(auth)
 
-timenow=strftime("%d %b %Y %H:%M:%S")
-
+#You can change this location code from weather.com
 result = pywapi.get_weather_from_weather_com('INXX1886', units = 'metric' )
 while(True):
 	timenow=strftime("%d %b %Y %H:%M:%S")
