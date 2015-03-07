@@ -6,8 +6,8 @@ import pywapi
 import time
 from time import strftime
 
-auth = tweepy.OAuthHandler('HHztO8jPvGbjQIxXCYG4a50xF', 'VUy76dSmwXEd2hEcfKSVQyGj4GVt3u5iUTyijQLKrXIwPhcFBL')
-auth.set_access_token('3065251800-swm9cu1Z1Nbjz48wm7Zw0Ofd0R7o2og55Udn4JA', 'qUAdW0SVwd0Lcx5tgmpkZkGHoSw4S9iYuNmyqgK3EprMc')
+auth = tweepy.OAuthHandler('', '')
+auth.set_access_token('', '')
 
 api = tweepy.API(auth)
 
